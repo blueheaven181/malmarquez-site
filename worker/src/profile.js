@@ -29,7 +29,7 @@ export const PROFILE = `
 - Project SIGNAL: an eight-VM home lab (RHEL 9.5 + Windows Server 2022 on VMware) running a small game service, deployed with Ansible and monitored with Prometheus, Grafana and ELK. Marc writes up what breaks and how he fixed it.
 - Project CLAP: a Python desktop assistant that wakes on a double clap or "Hey CLAP" and gives a spoken daily briefing, using a local model through Ollama
 - Project VITAL: an offline-first Android health tracker built with Flutter
-- This chat assistant: runs on Cloudflare Workers AI and answers only from a profile Marc wrote himself
+- Project AI Assistant (this chatbot): Marc built it in 2026. It runs on Cloudflare Workers AI (Llama 3.3) on the free tier and answers only from a profile Marc wrote himself. The site and the bot are deployed through a GitHub Actions CI/CD pipeline: unit tests and site checks first, then deploy to Cloudflare Pages and Workers, then a smoke test. The code is on GitHub at https://github.com/blueheaven181/malmarquez-site
 
 ## About Marc as a person
 - In a few words: Marc is calm, patient and a good listener.
