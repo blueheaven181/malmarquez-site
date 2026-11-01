@@ -1,0 +1,10 @@
+{
+  "name": "marc-assistant",
+  "private": true,
+  "type": "module",
+  "description": "AI assistant for malmarquez.com, running on Cloudflare Workers AI",
+  "scripts": {
+    "test": "node --test test/worker.test.mjs",
+    "deploy": "npx --yes wrangler@4 deploy"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "icon_sets": "https://github.com/iconify/icon-sets",
+  "vendor_domains": {
+    "Microsoft Defender": "security.microsoft.com",
+    "Microsoft Purview": "purview.microsoft.com",
+    "Microsoft Intune": "intune.microsoft.com",
+    "Entra ID": "entra.microsoft.com",
+    "Active Directory": "microsoft.com",
+    "ManageEngine ADManager Plus": "manageengine.com",
+    "ManageEngine ADAudit Plus": "manageengine.com",
+    "ManageEngine ServiceDesk Plus": "manageengine.com",
+    "PRTG": "paessler.com",
+    "Ivanti": "ivanti.com",
+    "BigFix": "bigfix.com",
+    "ServiceNow": "servicenow.com",
+    "ConnectWise": "connectwise.com",
+    "CrowdStrike": "crowdstrike.com",
+    "Carbon Black": "carbonblack.com",
+    "Sophos": "sophos.com",
+    "Zscaler": "zscaler.com",
+    "Barracuda WAF": "barracuda.com",
+    "KnowBe4": "knowbe4.com",
+    "BeyondTrust PAM": "beyondtrust.com",
+    "OpenConnect VPN": "infradead.org",
+    "Hive": "hivedb.dev"
+  }
+}

@@ -1,0 +1,13 @@
+name = "marc-assistant"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+# Gives the Worker access to Cloudflare Workers AI as env.AI (no API key needed)
+[ai]
+binding = "AI"
+
+# Optional, recommended: serve the Worker at a path on your own domain instead of
+# marc-assistant.<you>.workers.dev. Uncomment after the first deploy works:
+# routes = [
+#   { pattern = "malmarquez.com/api/*", zone_name = "malmarquez.com" }
+# ]
